@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">salameh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_the_password">Confirm the password</string>
+    <string name="create_account">Create account</string>
+    <string name="todo">TODO</string>
+    <string name="new_report">New Report</string>
+    <string name="type_report">Type Report</string>
+    <string name="address">Address</string>
+    <string name="nearest_known_location">nearest known location</string>
+    <string name="send">Send</string>
+    <string name="login">Login</string>
+    <string name="status">Status</string>
+    <string name="not_emergency">Not Emergency</string>
+    <string name="emergency">Emergency</string>
+    <string name="crete_account">Crete Account</string>
+    <string name="pluse">+</string>
+    <string name="error">error</string>
+    <string name="add_report">Add Report</string>
+    <string name="phone_number">Phone Number</string>
+    <string-array name="Reports">
+        <item>"Electricity Company</item>
+        <item>"water company"</item>
+        <item>"car accident"</item>
+        <item>"collapses"</item>
+        <item>"Landings on the road"</item>
+        <item>"flood area"</item>
+        <item>"snow"</item>
+        <item>"Oil spills on the road"</item>
+        <item>"Signal failure"</item>
+        <item>"Lack of traffic safety elements"</item>
+        <item>"Road assault"</item>
+        <item>"Steal some road items"</item>
+        <item>"Malfunction of maintenance"</item>
+        <item >"Cleaning of sewage facilities"</item>
+        <item >"Road surface cleaning "</item>
+        <item >"Lighting malfunctions "</item>
+        <item>"Sandy moths"</item>
+        <item>"Contractors bypass service lines"</item>
+        <item>"Trees fall on the road"</item>
+        <item>"glides"</item>
+        <item>"fire"</item>
+        <item>"processing places"</item>
+        <item>"excavations"</item>
+
+
+    </string-array>
+</resources>

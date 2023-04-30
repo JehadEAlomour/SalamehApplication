@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/splach">
+
+    <fragment
+        android:id="@+id/splach"
+        android:name="com.example.salameh.ui.splach"
+        android:label="fragment_splach"
+        tools:layout="@layout/fragment_splach" >
+        <action
+            android:id="@+id/action_splach_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_splach_to_fragment_Regester"
+            app:destination="@id/fragment_Regester" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.salameh.ui.login"
+        android:label="fragment__login"
+        tools:layout="@layout/fragment__login" >
+        <action
+            android:id="@+id/action_login_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_login_to_adminReport"
+            app:destination="@id/adminReport" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_Regester"
+        android:name="com.example.salameh.ui.Fragment_Regester"
+        android:label="fragment_regester"
+        tools:layout="@layout/fragment_regester" >
+        <action
+            android:id="@+id/action_fragment_Regester_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.salameh.ui.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+
+
+        <action
+            android:id="@+id/action_mapFragment_to_reports_Fragment"
+            app:destination="@id/reports_Fragment" />
+
+        <action
+            android:id="@+id/action_mapFragment_to_reports_Fragment2"
+            app:destination="@id/reports_Fragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_reports_Fragment3"
+            app:destination="@id/reports_Fragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_reports_Fragment4"
+            app:destination="@id/reports_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reports_Fragment"
+        android:name="com.example.salameh.ui.Reports_Fragment"
+        android:label="fragment_reports_"
+        tools:layout="@layout/fragment_reports_" >
+        <action
+            android:id="@+id/action_reports_Fragment_to_emergencyFragment"
+            app:destination="@id/emergencyFragment" />
+
+        <argument android:name="Long"
+            app:argType="float" />
+        <argument
+            android:name="lang"
+            app:argType="float" />
+    </fragment>
+    <fragment
+        android:id="@+id/emergencyFragment"
+        android:name="com.example.salameh.ui.EmergencyFragment"
+        android:label="fragment_emergency"
+        tools:layout="@layout/fragment_emergency" >
+        <action
+            android:id="@+id/action_emergencyFragment_to_new_Reports"
+            app:destination="@id/new_Reports" />
+        <argument
+            android:name="TypeReport"
+            app:argType="string" />
+        <argument
+            android:name="Long"
+            app:argType="float" />
+        <argument
+            android:name="lange"
+            app:argType="float" />
+    </fragment>
+    <fragment
+        android:id="@+id/new_Reports"
+        android:name="com.example.salameh.ui.New_Reports"
+        android:label="fragment_new__reports"
+        tools:layout="@layout/fragment_new__reports" >
+        <argument
+            android:name="TypeReport"
+            app:argType="string" />
+        <argument android:name="TypeEmergency"
+            app:argType="string" />
+        <argument
+            android:name="Long"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_new_Reports_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <argument
+            android:name="lange"
+            app:argType="float" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/adminReport"
+        android:name="com.example.salameh.ui.AdminReport"
+        android:label="fragment_admin_report"
+        tools:layout="@layout/fragment_admin_report" />
+</navigation>

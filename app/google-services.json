@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1009045681515",
+    "project_id": "salameh-4b80e",
+    "storage_bucket": "salameh-4b80e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009045681515:android:c76b622c9a9cd2ca4ac82e",
+        "android_client_info": {
+          "package_name": "com.example.salameh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009045681515-lvgmaptpcbqoqfdjso8dtl53mdag4onh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7aU6OBdkL7PH0OVvJt28oB8TNuairc0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009045681515-lvgmaptpcbqoqfdjso8dtl53mdag4onh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
